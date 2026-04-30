@@ -8,8 +8,8 @@ from datetime import datetime  # For working with date and time
 
 # Define constants for the script
 CHUNK_SIZE = 1024  # Size of chunks to read/write at a time
-XI_API_KEY = "sk_1a487efbad63a4f9e6fe170c18b7fbbe9b9330810f8c8d7c"  # Your API key for authentication
-VOICE_ID = "wBIjdE5MsGxZDIrwHKFn"  # ID of the voice model to use
+XI_API_KEY = ""  # Your API key for authentication
+VOICE_ID = ""  # ID of the voice model to use
 SOURCE_FOLDER = r'E:\AIVtuber\Version1.8\RAGSourceText'  # Folder containing response text files
 FOLLOW_SUB_FOLDER = r'E:\AIVtuber\Version1.8\FollowSubMessg'  # Folder containing follow/subscription text files
 OUTPUT_FOLDER = r"E:\AIVtuber\Version1.8\generated_audio"  # Folder to save output audio files
