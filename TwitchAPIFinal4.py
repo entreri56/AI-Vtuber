@@ -28,7 +28,7 @@ options.add_argument(r"user-data-dir=C:\Users\Admin\AppData\Local\Google\Chrome\
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 # Navigate to the Twitch authorization URL
-client_id = "pde6l8ffz6k98d9t37vhi1hiy5xg9q"
+client_id = ""
 redirect_uri = "http://localhost:3000"
 url = f"https://id.twitch.tv/oauth2/authorize?client_id={client_id}&redirect_uri={redirect_uri}&response_type=code&scope=chat:read+channel:read:subscriptions"
 
@@ -49,8 +49,8 @@ else:
 driver.quit()
 
 # Twitch API credentials and settings
-client_id = "pde6l8ffz6k98d9t37vhi1hiy5xg9q"
-client_secret = "wmhiqx7ex08ho5kayc061epca85agm"
+client_id = ""
+client_secret = ""
 redirect_uri = "http://localhost:3000"
 code = auth_code  # Authorization code from the first step
 
