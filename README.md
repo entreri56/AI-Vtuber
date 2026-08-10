@@ -160,7 +160,3 @@ All settings in `.env`:
 **No audio in stream:**
 - In StreamLabs/OBS, check Settings → Audio → Mic/Aux is "CABLE Output"
 - Make sure the audio source isn't muted in your mixer
-
-## License
-
-MIT
